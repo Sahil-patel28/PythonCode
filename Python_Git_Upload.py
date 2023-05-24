@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import numpy as np   
 import pandas as pd
 import random
@@ -22,4 +16,3 @@ print(payment_mode)
 df = pd.DataFrame({"Prices":prices, "Payment Mode":payment_mode})
 
 df.to_csv("new_data.csv")  
-

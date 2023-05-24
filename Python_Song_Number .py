@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 for i in range(1,21,2):
     print("Play song number",i)
 
@@ -41,4 +35,3 @@ while repeat == "y":
     repeat = input("do you want to repeat again?(y/n): ")
     if repeat == "n":
         break   
-
